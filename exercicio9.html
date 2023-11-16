@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios 3</title>
+
+
+</head>
+
+<body>
+    <h1>Tabela de exercicio do Curso da Flexpear</h1>
+
+    <h3>Solicite ao usuário seu peso e altura, e calcule o IMC.</h3>
+
+    <script>
+
+        var nome = prompt(' Qual o seu nome? ');
+        var peso = prompt(' Por favor me informe o seu peso: ');
+        var altura = prompt(' Por favor me informe a sua altura:  ');
+        var imc = peso / (altura * altura);
+
+        if (imc <= 18.5) {
+            alert(nome + ' Seu imc é ' + Math.round(ims) + ' voce esta abaixo do peso!');
+        } else if (imc >= 18.5 && imc <= 24.9) {
+            alert(nome + ' Seu imc é ' + Math.round(imc) + ' você esta com seu peso ideal!');
+        } else if (imc >= 25 && imc <= 29.9) {
+            alert(nome + ' Seu imc é ' + Math.round(imc) + ' você esta acima do peso ideal!');
+        } else if (imc >= 30) {
+            alert(nome + ' Seu imc é ' + Math.round(imc) + ' você esta obeso!')
+        }
+
+
+    </script>
+
+</body>
+
+<script src=" scripts.js"></script>
+
+</html>
