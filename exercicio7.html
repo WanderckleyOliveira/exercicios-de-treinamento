@@ -17,7 +17,16 @@
 
     <script>
 
+        var reais = 0;
 
+        function conversor() {
+            var dolar = document.getElementById('dolares').valor;
+            dolar = parseFloat(dolar);
+
+            reais = dolar / 5;
+            console.log(reais);
+            alert(reais + ' reais');
+        }
 
 
     </script>
