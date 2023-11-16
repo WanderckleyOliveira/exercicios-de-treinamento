@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios 3</title>
+
+
+</head>
+
+<body>
+    <h1>Tabela de exercicio do Curso da Flexpear</h1>
+
+    <h3>Solicite ao usuário quatro números e calcule a média</h3>
+
+    <script>
+
+        var nota1;
+        var nota2;
+        var nota3;
+        var nota4;
+        var media;
+
+        nota1 = parseFloat(prompt('Digita a primeira nota: '));
+        nota2 = parseFloat(prompt('Digita a segunda nota: '));
+        nota3 = parseFloat(prompt('Digita a terceira nota: '));
+        nota4 = parseFloat(prompt('Digita a quarta nota: '));
+
+        media = (nota1 + nota2 + nota3 + nota4) / 4;
+
+        if (media >= 6) {
+            alert(media + ' Você foi aprovado: ');
+        } else {
+            alert(media + ' Você esta reprovado! ');
+        }
+
+
+    </script>
+
+</body>
+
+<script src=" scripts.js"></script>
+
+</html>
